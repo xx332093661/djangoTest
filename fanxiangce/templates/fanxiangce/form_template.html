@@ -1,0 +1,15 @@
+{% csrf_token %}
+{% for field in form %}
+    <div class="form-line">
+        <div class="field-label-tag">
+            {{ field.label_tag }}
+        </div>
+        <div class="field-field">
+            {{ field }}
+        </div>
+        <div class="field-errors">
+            {{ field.errors }}
+        </div>
+    </div>
+
+{% endfor %}

@@ -1,0 +1,15 @@
+{% extends "fanxiangce/base.html" %}
+{% load static %}
+
+{% block title %}翻相册{% endblock %}
+
+{% block head %}
+    {#<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>#}
+    {#<link href="{% static 'fanxiangce/css/lightbox' %}" rel="stylesheet">#}
+{% endblock %}
+
+{% block body %}
+    <ol class="breadcrumb" id="navigation">
+        <li><a href="{% url 'fanxiangce:index' %}">首页</a></li>
+    </ol>
+{% endblock %}

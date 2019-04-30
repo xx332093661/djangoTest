@@ -1,0 +1,18 @@
+{% extends "fanxiangce/base.html" %}
+{% load static %}
+
+{% block title %}翻相册 - 登陆{% endblock %}
+
+{% block body %}
+    <div class="page-header">
+        <h1>登陆</h1>
+    </div>
+    <div>
+        <form action="{% url 'fanxiangce:login' %}" method="post">
+            {% include 'fanxiangce/form_template.html' %}
+            <input class="btn btn-primary login-button" type="submit" value="登陆">
+        </form>
+        <br>
+        <p class="p-register">新用户？点击<a href="{% url 'fanxiangce:register' %}">这里</a>注册。</p>
+    </div>
+{% endblock %}

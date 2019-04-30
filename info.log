@@ -1,0 +1,12 @@
+"GET /fanxiangce/ HTTP/1.1" 200 325
+"GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 1744
+"GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 404 1741
+"GET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 404 1738
+"GET /fanxiangce/ HTTP/1.1" 200 325
+"GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 1744
+"GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 404 1741
+"GET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 404 1738
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2087
+Not Found: /fanxiangce/1
+"GET /fanxiangce/1 HTTP/1.1" 404 2316
